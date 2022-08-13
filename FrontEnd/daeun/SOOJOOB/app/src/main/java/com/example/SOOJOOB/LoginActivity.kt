@@ -73,9 +73,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         // 구글 로그인
-
         auth = FirebaseAuth.getInstance()
-
 
         // Configure Google Signin
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -84,14 +82,6 @@ class LoginActivity : AppCompatActivity() {
             .build()
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
-
-        googleSignInClient.signOut()
-
-
-
-
-
-
 
         binding.googleLogin.setOnClickListener{
             GoogleSignIn()
