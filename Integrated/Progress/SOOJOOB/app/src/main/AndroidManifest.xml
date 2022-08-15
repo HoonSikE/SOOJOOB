@@ -61,6 +61,10 @@
             android:exported="false">
         </activity>
         <activity
+            android:name="com.example.SOOJOOB.PasswordActivity"
+            android:exported="false">
+        </activity>
+        <activity
             android:name="com.example.SOOJOOB.LoginActivity"
             android:exported="true">
             <intent-filter>
