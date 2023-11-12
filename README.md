@@ -21,7 +21,7 @@
 
 - 🏃‍♂️달리고 걸을 때 🍥쓰레기를 주워 💪나의 건강과 지구의 건강을 함께 지키는 앱
   
-  ### 2. 서비스 기획 배경
+### 2. 서비스 기획 배경
   
   <div align="center">
   <img height="300px" width="350px;" src="./README/trash2.png" />
